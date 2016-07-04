@@ -2,6 +2,6 @@ jobs:
   - name: script-0y005
     type: runSh
     steps:
-      - GET: sample-script
+      - GET: sample-script2
       - TASK:
         - script: ./GET/sample-script/sample-script/echo.sh
