@@ -5,4 +5,5 @@ jobs:
     steps:
       - GET: sample-script2
       - TASK:
+        - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
