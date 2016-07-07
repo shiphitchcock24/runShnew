@@ -3,7 +3,7 @@ jobs:
     type: runSh
     serial: true
     steps:
-      - GET: sample-script2
+      - GET: sample-script3
       - TASK:
         - script: pwd
         - script: ./GET/sample-script2/sample-script2/echo.sh
@@ -11,7 +11,7 @@ jobs:
     type: runSh
     serial: true
     steps:
-      - GET: sample-script2
+      - GET: sample-script3
       - TASK:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
@@ -19,7 +19,7 @@ jobs:
     type: runSh
     serial: true
     steps:
-      - GET: sample-script2
+      - GET: sample-script3
       - TASK:
         - script: ps
         - script: ./GET/sample-script2/sample-script2/echo.sh
