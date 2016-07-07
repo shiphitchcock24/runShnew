@@ -1,5 +1,5 @@
 jobs:
-  - name: script-0y021
+  - name: script-0y100
     type: runSh
     serial: true
     steps:
@@ -7,7 +7,7 @@ jobs:
       - TASK:
         - script: pwd
         - script: ./GET/sample-script2/sample-script2/echo.sh
-  - name: script-0y022
+  - name: script-0y101
     type: runSh
     serial: true
     steps:
@@ -15,7 +15,7 @@ jobs:
       - TASK:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
-  - name: script-0y023
+  - name: script-0y102
     type: runSh
     serial: true
     steps:
