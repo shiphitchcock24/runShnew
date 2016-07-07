@@ -7,3 +7,19 @@ jobs:
       - TASK:
         - script: pwd
         - script: ./GET/sample-script2/sample-script2/echo.sh
+  - name: script-0y022
+    type: runSh
+    serial: true
+    steps:
+      - GET: sample-script2
+      - TASK:
+        - script: pwd
+        - script: ./GET/sample-script2/sample-script2/echo.sh
+  - name: script-0y023
+    type: runSh
+    serial: true
+    steps:
+      - GET: sample-script2
+      - TASK:
+        - script: pwd
+        - script: ./GET/sample-script2/sample-script2/echo.sh
