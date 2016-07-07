@@ -1,14 +1,7 @@
 resources:
-  - name: sample-script2
+  - name: sample-script3
     type: gitRepo
     integration: github
     source:
       name: shrivara/sample-script2
       branch: master
-  - name: nginx-image
-    type: image
-    integration: docker
-    source:
-      name: "library/nginx"
-      isPull: false
-      tag: latest
