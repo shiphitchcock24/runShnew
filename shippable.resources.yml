@@ -1,7 +1,7 @@
 resources:
-  - name: sample-script3
+  - name: sample-script1
     type: gitRepo
     integration: github
     source:
-      name: shrivara/sample-script2
+      name: shiphitchcock4/sample-script
       branch: master
