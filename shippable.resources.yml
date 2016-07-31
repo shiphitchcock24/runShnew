@@ -1,7 +1,7 @@
 resources:
-  - name: sample-script1
+  - name: script-test
     type: gitRepo
     integration: github
     source:
-      name: shiphitchcock4/sample-script
+      name: shiphitchcock24/script-test
       branch: master
