@@ -1,5 +1,5 @@
 triggers:
-  - name: triggerscript 
+  - name: triggerscript1
     type: trigger
     pointer:
        counter: 46
