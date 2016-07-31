@@ -1,13 +1,13 @@
 jobs:
-  - name: script-l12
+  - name: script-test2job
     type: runSh
     #serial: true
     steps:
-      - IN: script-test
+      - IN: script-test2
       - IN: triggerscript
       - TASK:
         - script: pwd
-        - script: ./IN/script-test/script-test/echo.sh
+        - script: ./IN/script-test2/script-test2/echo.sh
  # - name: script-0y101
   #  type: runSh
     #serial: true
