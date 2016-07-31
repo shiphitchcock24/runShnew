@@ -1,5 +1,5 @@
 jobs:
-  - name: script-0y101
+  - name: script-l1
     type: runSh
     #serial: true
     steps:
