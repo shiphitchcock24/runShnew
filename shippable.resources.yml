@@ -3,5 +3,5 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      name: shiphitchcock24/script-test
+      sourceName: shiphitchcock24/script-test
       branch: master
