@@ -1,7 +1,7 @@
 resources:
-  - name: script-test
+  - name: script-test2
     type: gitRepo
     integration: github
     pointer:
-      sourceName: shiphitchcock24/script-test
+      sourceName: shiphitchcock24/script-test2
       branch: master
