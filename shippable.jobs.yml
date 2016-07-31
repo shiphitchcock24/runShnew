@@ -4,7 +4,7 @@ jobs:
     #serial: true
     steps:
       - IN: script-test2
-      - IN: triggerscript
+      - IN: triggerscript1
       - TASK:
         - script: pwd
         - script: ./IN/script-test2/script-test2/echo.sh
