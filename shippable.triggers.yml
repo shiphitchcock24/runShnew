@@ -2,7 +2,7 @@ triggers:
   - name: triggerscript 
     type: trigger
     pointer:
-       counter: 1
+       counter: 2
       
       
       
